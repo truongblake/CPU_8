@@ -1,6 +1,7 @@
 # 8-Bit CPU Design
 
 A fully functional 8-bit CPU implemented in Logisim, inspired by Ross McGowan's lecture series and J. Clark Scott's *But How Do It Know?*
+
 <img width="799" height="500" alt="image" src="https://github.com/user-attachments/assets/fb51ddf3-9c85-4958-87d7-8fafe72cd88f" />
 
 
@@ -19,8 +20,7 @@ Drives the full fetch-execute cycle via a **Stepper** that manages set/enable si
 
 - **Steps 1–3**: FETCH
 - **Steps 4–7**: EXECUTE
-
-<img width="714" height="603" alt="image" src="https://github.com/user-attachments/assets/5b333c6b-e85a-4c32-8b51-00fca8064835" />
+<img width="792" height="463" alt="image" src="https://github.com/user-attachments/assets/910f7b04-1888-4c19-b8f4-8c281754eebe" />
 
 ### Arithmetic Logic Unit (ALU)
 
@@ -47,6 +47,9 @@ Drives the full fetch-execute cycle via a **Stepper** that manages set/enable si
 | **IR** (Instruction Register) | Stores the current instruction being executed |
 | **CLK** (Clock) | Master clock feeding into the control section |
 | **Bus** | Increments the PC and enables TMP output |
+
+<img width="714" height="603" alt="image" src="https://github.com/user-attachments/assets/5b333c6b-e85a-4c32-8b51-00fca8064835" />
+<img width="349" height="381" alt="image" src="https://github.com/user-attachments/assets/7d3a5301-7aba-475b-99af-1a5cb5089b33" />
 
 ---
 
