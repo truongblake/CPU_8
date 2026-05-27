@@ -1,13 +1,14 @@
 # 8-Bit CPU Design
 
 A fully functional 8-bit CPU implemented in Logisim, inspired by Ross McGowan's lecture series and J. Clark Scott's *But How Do It Know?*
+<img width="799" height="500" alt="image" src="https://github.com/user-attachments/assets/fb51ddf3-9c85-4958-87d7-8fafe72cd88f" />
+
 
 ## Overview
 
 - ALU, 4 general-purpose registers, 256 bytes of RAM, clock, and program counter
 - 32 opcodes including load, store, and jump instructions
 - Extended architecture with an **escape bit** for opcode extension
-- Verified with a hand-written assembly program manually converted and debugged into machine code
 
 ---
 
@@ -18,6 +19,8 @@ Drives the full fetch-execute cycle via a **Stepper** that manages set/enable si
 
 - **Steps 1–3**: FETCH
 - **Steps 4–7**: EXECUTE
+
+<img width="714" height="603" alt="image" src="https://github.com/user-attachments/assets/5b333c6b-e85a-4c32-8b51-00fca8064835" />
 
 ### Arithmetic Logic Unit (ALU)
 
